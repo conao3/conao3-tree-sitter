@@ -6,3 +6,7 @@
 |----------+-----------------------------------+----------------------------------|
 | JSON     | [[https://github.com/conao3/tree-sitter-conao3-json][conao3/tree-sitter-conao3-json]]    | [[https://github.com/conao3/elisp-conao3-json-mode][conao3/elisp-conao3-json-ts-mode]] |
 | Clojure  | [[https://github.com/conao3/tree-sitter-conao3-clojure][conao3/tree-sitter-conao3-clojure]] | -                                |
+
+* Tips
+- Conao3's tutorial: [[https://a.conao3.com/blog/2024/8b665fed/][Clojureで始めるTree-sitter]]
+- Emacs admin notes: [[https://github.com/emacs-mirror/emacs/blob/1704fa4fb4164a15c7e258b922dbba190811d92d/admin/notes/tree-sitter/starter-guide][emacs/admin/notes/tree-sitter/starter-guide]]
