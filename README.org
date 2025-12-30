@@ -1,15 +1,25 @@
+#+title: conao3-tree-sitter
 #+author: conao3
 
-* conao3-tree-sitter
+* Overview
 
-| Language   | tree-sitter                          | Emacs                            |
+A collection of custom [[https://tree-sitter.github.io/tree-sitter/][Tree-sitter]] grammars and corresponding Emacs major modes. Tree-sitter provides fast, accurate parsing for programming languages, enabling better syntax highlighting, code navigation, and structural editing.
+
+* Grammars and Modes
+
+| Language   | Tree-sitter Grammar                  | Emacs Mode                       |
 |------------+--------------------------------------+----------------------------------|
-| JSON       | [[https://github.com/conao3/tree-sitter-conao3-json][conao3/tree-sitter-conao3-json]]       | [[https://github.com/conao3/elisp-conao3-json-mode][conao3/elisp-conao3-json-ts-mode]] |
-| JavaScript | [[https://github.com/conao3/tree-sitter-conao3-javascript][conao3/tree-sitter-conao3-javascript]] | -                                |
-| Clojure    | [[https://github.com/conao3/tree-sitter-conao3-clojure][conao3/tree-sitter-conao3-clojure]]    | -                                |
-| Bash       | [[https://github.com/conao3/tree-sitter-conao3-bash][conao3/tree-sitter-conao3-bash]]       | -                                |
-| SQL        | [[https://github.com/conao3/tree-sitter-conao3-sql][conao3/tree-sitter-conao3-sql]]        | -                                |
+| JSON       | [[https://github.com/conao3/tree-sitter-conao3-json][tree-sitter-conao3-json]]              | [[https://github.com/conao3/elisp-conao3-json-mode][conao3-json-ts-mode]]              |
+| JavaScript | [[https://github.com/conao3/tree-sitter-conao3-javascript][tree-sitter-conao3-javascript]]        | -                                |
+| Clojure    | [[https://github.com/conao3/tree-sitter-conao3-clojure][tree-sitter-conao3-clojure]]           | -                                |
+| Bash       | [[https://github.com/conao3/tree-sitter-conao3-bash][tree-sitter-conao3-bash]]              | -                                |
+| SQL        | [[https://github.com/conao3/tree-sitter-conao3-sql][tree-sitter-conao3-sql]]               | -                                |
 
-* Tips
-- Conao3's tutorial: [[https://a.conao3.com/blog/2024/8b665fed/][Clojureで始めるTree-sitter]]
-- Emacs admin notes: [[https://github.com/emacs-mirror/emacs/blob/1704fa4fb4164a15c7e258b922dbba190811d92d/admin/notes/tree-sitter/starter-guide][emacs/admin/notes/tree-sitter/starter-guide]]
+* Resources
+
+- [[https://a.conao3.com/blog/2024/8b665fed/][Getting Started with Tree-sitter in Clojure]] - Tutorial by conao3
+- [[https://github.com/emacs-mirror/emacs/blob/1704fa4fb4164a15c7e258b922dbba190811d92d/admin/notes/tree-sitter/starter-guide][Emacs Tree-sitter Starter Guide]] - Official Emacs documentation
+
+* Author
+
+conao3
